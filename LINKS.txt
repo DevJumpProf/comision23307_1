@@ -1,4 +1,4 @@
-COMISIÓN 23807
+COMISIÓN 23307
 
 Les dejo los links a todos los accesos importantes:
 
@@ -19,7 +19,7 @@ Link aula virtual:
 https://aulasvirtuales.bue.edu.ar/
 
 Link github:
-https://github.com/DevJumpProf/comision23807_1
+https://github.com/DevJumpProf/comision23307_1
 
 Mails:
 Profesor Gabriel: gabriel.munoz@bue.edu.ar
