@@ -35,7 +35,7 @@ let num2 = Number(prompt ("Decime otro numero"))
 
 document.write ("el resultado de tu suma es: " + (num1 + num2)); */
 
-
+//operadores matematicos
 /*  + - * /  % */
 
 
