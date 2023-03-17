@@ -46,72 +46,76 @@ console.log(i)
 
 
 // Arrays -  arreglo - matriz
+// Arrays - arreglo - Matriz
 
 
-//    indice               0          1       2       3       4
-/* const lenguajes = ["Javascript", "Java","Python", "PHP"] */
-            //        1         2       3       4
-/*  console.log(lenguajes[2]); // veo el elemento por el indice
-console.log(lenguajes.length); // cantidad de elementos
-console.log(lenguajes[lenguajes.length-1]);  *///accedo al ultimo elemento */
 
-/* lenguajes[2] = "GO"; // asignacion
-console.log(lenguajes); */
- 
+// indice             0           1       2      3
+let lenguajes = ["Javascript", "Java","Python","Php","GO"]
+//                   1           2       3        4
+
+console.log(lenguajes[0]); // accedo a un elemento por su indice
+console.log(lenguajes.length);
+console.log(lenguajes[lenguajes.length-1]);// cantidad de elementos
 
 
-// Metodos de arrays
-                //0        1        2         3        4        5           6
-let animales = ["Perro","Gato","Yaguareté","Yacaré","Surubí","Carpincho","Perro"]
+/* Metodos de Array */
+             //  0       1       2       3      4       5
+let animales =["Gato","Perro","Tigre","Rata","Conejo","Gato"];
 
 let numeros = [1,2,8,7,4,6,7,3]
 
-let bidimensional = [1,2,3,4,5,6,[7,8]]
-
-let dev = "codo a codo"
-
 //slice()
-const nuevoArray= animales.slice(0,3)
-console.log(nuevoArray)
+/* slice() : Devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido). El array original no se modificará. */
+/* let nuevoArray=animales.slice(2,5) */
+/* console.log(nuevoArray); */
 
-/* unshift() */
-/* animales.unshift("Cocodrilo")
+//unshift
+//Agrega Inicio al final del array
+/* animales.unshift("Dragon");
 console.log(animales) */
 
-//shift()
+//shift
+// elimina elemento al inicio del array
 /* animales.shift()
 console.log(animales) */
 
-/* .pop()*/
-/* animales.pop()
+
+/* .pop()
+// elimina elemento al final del array
+animales.pop() 
 console.log(animales); */
 
-/* .push()  */
-/* animales.push("Cocodrilo")
-console.log(animales); */
+//.push() 
+//Agrega elemento/s al final del array
+/* animales.push("Cocodrilo") */
 
-//find()
-/* const nuevoArray = numeros.find(element => element>3);
+
+
+// find()
+/* .find() : Recorre el array y retorna la primera coincidencia del elemento que se busca.
+.find */
+/* const nuevoArray = numeros.find(element=> element<3)
 console.log(nuevoArray); */
 
-//forEach()
-
+//forEach
+/* .forEach() : Permite iterar el contenido de un array. Recibe un callback que toma como parámetro el elemento actual de la iteración y el indice del mismo.
+forEach */
 /* animales.forEach((element,i)=>{
-    console.log(`el ${element} se encuentra en el indice ${i}`);
+    console.log(`el ${element} está en la posicion ${i}`);
 }) */
 
-
-//.filter
-/* const nuevoArray = animales.filter(elements => elements === "Perro" || elements === "Gato" )
+//filter()
+/* .filter() : Recorre el array y retorna un nuevo array con aquellos elementos que pasen una determinada condición
+.filter */
+/* 
+let nuevoArray=animales.filter (elements=>elements==="Perro"||elements==="Gato")
 console.log(nuevoArray) */
 
-//.map
-/* const nuevoArray = numeros.map(elements => elements *10);
-console.log(nuevoArray)
- */
-
-
-
-
+//.map()
+/* .map() : Permite recorre el array y modificar los elements presentes en él, retornando un nuevo array con la misma longitud que el original.
+.map */
+/* let nuevoArray = numeros.map(elements =>elements *10)
+console.log(nuevoArray); */
 
 
