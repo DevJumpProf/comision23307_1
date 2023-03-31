@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    background:#505050 ;
+    color:whitesmoke;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    -ms-grid-colums: repeat(4,1fr);
+    gap:40px;
+}
+
+.contenedor .pelicula{
+    text-align: center;
+}
+
+.contenedor .pelicula .titulo{
+    font-size:20px ;
+    font-weight: 600;
+}
+
+.contenedor .pelicula .poster{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius:15px;
+}
+
+.paginacion{
+    position:fixed;
+    bottom:0;
+    background: #100a1f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding:10px
+}
+
+.paginacion button{
+    cursor: pointer;
+    border: none;
+    display:flex;
+}
+
+
+.paginacion button:hover{
+    background: greenyellow;
+}
