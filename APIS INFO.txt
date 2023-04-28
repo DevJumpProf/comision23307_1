@@ -1,0 +1,48 @@
+les dejo  APIS.
+:dog2:Perritos: https://dog.ceo/dog-api/
+
+:pencil2:Anime: https://jikan.moe/
+
+:film_projector:Peliculas: https://www.omdbapi.com/
+
+:partly_sunny:Clima: https://lnkd.in/eJrUbaAm
+
+:full_moon:NASA: https://api.nasa.gov/
+
+:squid:Pokemon: https://pokeapi.co/
+
+:selfie::skin-tone-2:RedSocial/Album: https://lnkd.in/eNEy9k4Y
+
+:red_circle:Fake Api ReqRes: https://reqres.in/
+
+:large_orange_circle:Fake Api mocki: https://lnkd.in/ethMEE-V
+
+Fake Api Fakejson: https://fakejson.com/
+
+:large_green_circle:Fake Api dummy: https://lnkd.in/ePCTF5Vu
+
+:mag_right:Buscador de APIS: https://lnkd.in/eN-BWuSM
+
+https://developers.giphy.com/
+
+https://developer.marvel.com/
+
+● Ministerio de Modernización
+https://datos.gob.ar/dataset
+
+● Listado de países
+https://restcountries.eu/rest/v2/
+
+Avocados - Paltas
+https://platzi-avo.vercel.app/api/avo
+
+
+HARRY POTTER
+https://hp-api.herokuapp.com/ PI con todos los personajes y estudiantes!
+Revisita Hogwarts en tu próximo proyecto.
+
+Mas...
+https://rapidapi.com/blog/most-popular-api/?utm_source=google&utm_medium=cpc&utm_campaign=Beta&utm_term=%2Bapi_b
+
+Acá también hay:
+https://github.com/public-apis/public-apis
