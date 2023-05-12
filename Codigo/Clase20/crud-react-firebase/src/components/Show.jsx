@@ -29,6 +29,7 @@ const playersDoc = doc(db,"players",id)
 await deleteDoc (playersDoc)
 getPlayers()
     }
+    
     //5 funcion para la confirmacion de sweet alert
     const confirmDelete=(id)=>{
  
