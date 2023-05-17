@@ -7,6 +7,7 @@ import withReactContent from "sweetalert2-react-content"
 
 const mySwal=withReactContent(Swal)
 
+
 export const Show = () =>{
     //1 configurar los hooks
 const [players,setPlayers] = useState([])
