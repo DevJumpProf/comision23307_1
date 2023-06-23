@@ -1,0 +1,18 @@
+https://vitejs.dev/
+
+npm create vite
+elijo el nombre del proyecto
+elijo el framework (REact)
+elijo el lenguaje (javascript/JSX)
+
+cd nombredelproyecto
+
+npm i  // instalar las dependencias que vienen por defecto
+
+npm run dev  / ejecutar el proyecto
+
+
+//importamos bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+https://cdnjs.com/libraries/font-awesome/6.1.0
